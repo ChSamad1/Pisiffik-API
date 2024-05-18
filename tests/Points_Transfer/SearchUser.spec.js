@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Post', async({request}) => {
+test('Search User API', async({request}) => {
     const response = await request.post('https://api.dev.pisiffik.gl/api/search/user',
     { 
     data :{"search": "Samad"},

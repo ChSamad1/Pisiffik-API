@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Post', async({request}) => {
+test('WebCount API', async({request}) => {
     const response = await request.post('https://api.dev.pisiffik.gl/api/webshop',
     { 
     data :{"phone": "+923245774610", "password":"SA@1122"},

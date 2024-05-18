@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Remove and then add user', async ({ request }) => {
+test('Favorite User API', async ({ request }) => {
   
   const removeResponse = await request.post('https://api.dev.pisiffik.gl/api/favorite/user', {
     data: {

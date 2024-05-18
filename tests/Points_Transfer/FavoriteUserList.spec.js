@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Post', async({request}) => {
+test('Favorite User List API', async({request}) => {
     const response = await request.get('https://api.dev.pisiffik.gl/api/favorite/users/list',
     { 
     data :{"phone": "+923245774610", "password":"SA@1122"},

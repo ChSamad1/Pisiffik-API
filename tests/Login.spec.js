@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Post', async({request}) => {
+test('Login API', async({request}) => {
     const response = await request.post('https://api.dev.pisiffik.gl/api/customer/login',
     { 
     data :{"phone": "+923245774610", "password":"SA@1122"},

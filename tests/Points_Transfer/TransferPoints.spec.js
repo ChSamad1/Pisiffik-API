@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Post with form data', async ({ request }) => {
+test('Transfer Points API', async ({ request }) => {
   const response = await request.post('https://api.dev.pisiffik.gl/api/transfer', {
     form: {
       "phone": "+923245774610",
