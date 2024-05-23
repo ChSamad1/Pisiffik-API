@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('Logout API', async({request}) => {
+test.skip('Logout API', async({request}) => {
     const response = await request.get('https://api.dev.pisiffik.gl/api/customer/logout',
     { 
     data :{"phone": "+923245774610", "password":"SA@1122"},

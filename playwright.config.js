@@ -29,7 +29,7 @@ module.exports = defineConfig({
 
     /* Set global headers for all requests */
     extraHTTPHeaders: {
-      'Authorization': 'Bearer 95121|ZET0NztPBDXUCnemEzfISJxaRhZXqAaWqRJsFTHi',
+      'Authorization': 'Bearer 95123|6Q9PcqqRQbOOVgMNYbgioBlb9UEROCKssyxVTYtJ',
       'Accept': 'application/json',
       'key': 'YW1Gb1lXNTZZV2xpTG1GemJHRnRMbTFsYUdGeVFHZHRZV2xzTG1OdmJUcHdhWE5wWm1scg=='
     },
