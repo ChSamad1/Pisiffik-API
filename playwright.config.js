@@ -29,9 +29,9 @@ module.exports = defineConfig({
 
     /* Set global headers for all requests */
     extraHTTPHeaders: {
-      'Authorization': 'Bearer 95118|RQE0hFRHcZgGTcqaQEsc6aQs4QVBDgKOrn1ERtk3',
+      'Authorization': 'Bearer 95121|ZET0NztPBDXUCnemEzfISJxaRhZXqAaWqRJsFTHi',
       'Accept': 'application/json',
-      'kEY': 'YW1Gb1lXNTZZV2xpTG1GemJHRnRMbTFsYUdGeVFHZHRZV2xzTG1OdmJUcHdhWE5wWm1scg=='
+      'key': 'YW1Gb1lXNTZZV2xpTG1GemJHRnRMbTFsYUdGeVFHZHRZV2xzTG1OdmJUcHdhWE5wWm1scg=='
     },
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
